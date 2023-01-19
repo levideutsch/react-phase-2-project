@@ -1,0 +1,46 @@
+{
+    "properties":  [
+        { 
+            "id": 1, 
+            "photo": "https://nypost.com/wp-content/uploads/sites/2/2022/03/123-year-old-Brooklyn-house-438.jpg?quality=90&strip=all",
+            "location": "Brooklyn, New York",
+            "price": 100,
+            "milesAway": 33
+        },
+        { 
+            "id": 2, 
+            "photo": "https://untappedcities.com/wp-content/uploads/2020/12/Victorian-Flatbush-Michelle-Williams-House-Brooklyn-Buckingham-Road.jpg",
+            "location": "Queens, New York",
+            "price": 150,
+            "milesAway": 90
+        },
+        { 
+            "id": 3, 
+            "photo": "https://leavethekey.com/wp-content/uploads/2020/06/3-options-for-selling-your-house-in-Brooklyn-New-York.jpg",
+            "location": "Sutton, Canada",
+            "price": 155,
+            "milesAway": 78
+        },
+        { 
+            "id": 4, 
+            "photo": "https://nypost.com/wp-content/uploads/sites/2/2022/03/123-year-old-Brooklyn-house-438.jpg?quality=90&strip=all",
+            "location": "Brooklyn, New York",
+            "price": 100,
+            "milesAway": 33
+        },
+        { 
+            "id": 5, 
+            "photo": "https://untappedcities.com/wp-content/uploads/2020/12/Victorian-Flatbush-Michelle-Williams-House-Brooklyn-Buckingham-Road.jpg",
+            "location": "Queens, New York",
+            "price": 150,
+            "milesAway": 90
+        },
+        { 
+            "id": 6, 
+            "photo": "https://leavethekey.com/wp-content/uploads/2020/06/3-options-for-selling-your-house-in-Brooklyn-New-York.jpg",
+            "location": "Sutton, Canada",
+            "price": 155,
+            "milesAway": 78
+        }
+    ]
+} 
