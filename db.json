@@ -1,46 +1,59 @@
 {
-    "properties":  [
-        { 
-            "id": 1, 
-            "photo": "https://nypost.com/wp-content/uploads/sites/2/2022/03/123-year-old-Brooklyn-house-438.jpg?quality=90&strip=all",
-            "location": "Brooklyn, New York",
-            "price": 100,
-            "milesAway": 33
-        },
-        { 
-            "id": 2, 
-            "photo": "https://untappedcities.com/wp-content/uploads/2020/12/Victorian-Flatbush-Michelle-Williams-House-Brooklyn-Buckingham-Road.jpg",
-            "location": "Queens, New York",
-            "price": 150,
-            "milesAway": 90
-        },
-        { 
-            "id": 3, 
-            "photo": "https://leavethekey.com/wp-content/uploads/2020/06/3-options-for-selling-your-house-in-Brooklyn-New-York.jpg",
-            "location": "Sutton, Canada",
-            "price": 155,
-            "milesAway": 78
-        },
-        { 
-            "id": 4, 
-            "photo": "https://nypost.com/wp-content/uploads/sites/2/2022/03/123-year-old-Brooklyn-house-438.jpg?quality=90&strip=all",
-            "location": "Brooklyn, New York",
-            "price": 100,
-            "milesAway": 33
-        },
-        { 
-            "id": 5, 
-            "photo": "https://untappedcities.com/wp-content/uploads/2020/12/Victorian-Flatbush-Michelle-Williams-House-Brooklyn-Buckingham-Road.jpg",
-            "location": "Queens, New York",
-            "price": 150,
-            "milesAway": 90
-        },
-        { 
-            "id": 6, 
-            "photo": "https://leavethekey.com/wp-content/uploads/2020/06/3-options-for-selling-your-house-in-Brooklyn-New-York.jpg",
-            "location": "Sutton, Canada",
-            "price": 155,
-            "milesAway": 78
-        }
-    ]
-} 
+  "properties": [
+    {
+      "id": 7,
+      "photo": "https://bt-wpstatic.freetls.fastly.net/wp-content/blogs.dir/4198/files/2017/08/28-Needs-photo-shop.jpg",
+      "location": "Miami, Florida",
+      "price": 380,
+      "milesAway": 1200,
+      "delisted": false
+    },
+    {
+      "id": 8,
+      "photo": "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.coloradohomesmag.com/content/uploads/data-import/44b1af42/exterior_This-Spacious-Modern-Farmhouse-is-a-Forever-Home.jpg",
+      "location": "Denver, Colorado",
+      "price": 1045,
+      "milesAway": 2000,
+      "delisted": false
+    },
+    {
+      "id": 11,
+      "photo": "https://media.tilsonhomes.com/175/2020/6/19/4264-KDB03943-HDR.1920x1440.jpg",
+      "location": "San Antonio, Texas",
+      "price": 770,
+      "milesAway": 1067,
+      "delisted": false
+    },
+    {
+      "id": 13,
+      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
+      "location": "Arapongas, Brazil",
+      "price": 56,
+      "milesAway": 6000,
+      "delisted": false
+    },
+    {
+      "id": 14,
+      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
+      "location": "Pabna, Bangladesh",
+      "price": 5567,
+      "milesAway": 4540,
+      "delisted": false
+    },
+    {
+      "id": 16,
+      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
+      "location": "Batna, Algeria",
+      "price": 5353533,
+      "milesAway": 3443,
+      "delisted": false
+    },
+    {
+      "id": 17,
+      "photo": "https://photos.zillowstatic.com/fp/069ca41d3473ef07637e365ee34190f5-p_e.jpg",
+      "location": "Miami Gardens (FL), United States of America",
+      "price": 350,
+      "milesAway": 1000
+    }
+  ]
+}
