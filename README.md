@@ -9,4 +9,4 @@
 ### To get started, clone, then type in "npm start" on one termina, then type "npm run server" on a second and tada, we can now see how our application looks.
 
 
-![image] (/Users/levideutsch/Desktop/Screenshot 2023-01-30 at 3.21.19 PM.png)
+![image] (arbb1.png)
