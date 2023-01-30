@@ -25,28 +25,12 @@
       "delisted": false
     },
     {
-      "id": 13,
-      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
-      "location": "Arapongas, Brazil",
-      "price": 56,
-      "milesAway": 6000,
-      "delisted": false
-    },
-    {
-      "id": 14,
-      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
-      "location": "Pabna, Bangladesh",
-      "price": 5567,
-      "milesAway": 4540,
-      "delisted": false
-    },
-    {
       "id": 16,
       "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
       "location": "Batna, Algeria",
       "price": 5353533,
       "milesAway": 3443,
-      "delisted": false
+      "delisted": true
     },
     {
       "id": 17,

@@ -35,9 +35,9 @@ function App() {
       setProperties([ ...properties, property ])
     }
 
-    function handleDelete(property) {
-      const deletedItem = properties.map(item => item.id !== property.id)
-      setProperties(deletedItem)
+    function handleDelete(deletedProperty) {
+      const updatedItems = properties.map(item => item.id !== deletedProperty.id)
+      setProperties(updatedItems)
     }
 
   return (
@@ -49,7 +49,8 @@ function App() {
           <Route exact path="/">
             <Home properties={properties}
                   handleMove={handleDelist} 
-                  handleDelete={handleDelete}/>
+                  handleDelete={handleDelete}
+                  />
           </Route>
           <Route exact path="/add">
             <Add onAdd={handleAdd}/>

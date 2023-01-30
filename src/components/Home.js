@@ -16,12 +16,12 @@ function Home({ properties, handleMove, handleDelete }) {
     }
   })
 
-  // console.log('Filter: ', filter)
+  
 
     return (
       <>
         <Filter value={filter} onFilterChange={setFilter} />
-        {sorted.map(property => <Property key={property.id} property={property} handleMove={handleMove} handleDelete={handleDelete}/>)}
+        {sorted.map(property => <Property key={property.id} property={property} handleMove={handleMove} handleDelete={handleDelete} />)}
       </>
     )
 }

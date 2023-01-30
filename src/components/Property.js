@@ -15,13 +15,13 @@ function Property({ property, handleMove, handleDelete }) {
     .then(() => handleMove({...property, delisted: !delisted}))
   }
 
-    // function handleDeleteClick() {
-    //     fetch(`http://localhost:3004/properties/${id}`, {
-    //       method: "DELETE",
-    //     })
-    //     .then((response) => response.json())
-    //     .then(() => handleDelete(property))
-    //   }
+    function handleDeleteClick() {
+        fetch(`http://localhost:3004/properties/${property.id}`, {
+          method: "DELETE",
+        })
+        .then((response) => response.json())
+        .then(() => handleDelete(property))
+      }
      
 
 
@@ -45,7 +45,7 @@ function Property({ property, handleMove, handleDelete }) {
                     <Card.Meta> <span className='date'>{milesAway} Miles Away</span></Card.Meta>
                     <Button primary>Price Per Night ${price}</Button>
                     <Button secondary onClick={handleListChange}>{delisted ? 'Re-List' : 'De-List'}</Button>
-                    {/* <Button secondary onClick={handleDeleteClick}>Delete</Button> */}
+                    <Button secondary onClick={handleDeleteClick}>Delete</Button>
                     </Card.Content>
             </Card> 
             </li>
