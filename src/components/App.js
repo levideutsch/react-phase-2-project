@@ -10,6 +10,7 @@ import NavBar from "./NavBar"
 function App() {
     const [properties, setProperties] = useState([])
     const [delisted, setDelisted] = useState([])
+    const [reload, setReload] = useState("")
 
     useEffect(() => {
         fetch("http://localhost:3004/properties")
@@ -19,7 +20,7 @@ function App() {
           setProperties(properties.filter(p => !p.delisted))
           setDelisted(properties.filter(p => p.delisted))
         })
-    }, [])
+    }, [reload])
 
     function handleDelist(property) {
       setProperties(properties.filter(p => p.id != property.id))
@@ -50,6 +51,7 @@ function App() {
             <Home properties={properties}
                   handleMove={handleDelist} 
                   handleDelete={handleDelete}
+                  setReload={setReload}
                   />
           </Route>
           <Route exact path="/add">

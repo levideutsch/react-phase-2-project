@@ -25,19 +25,58 @@
       "delisted": false
     },
     {
-      "id": 16,
-      "photo": "https://images.adsttc.com/media/images/5c05/0142/08a5/e5c7/1100/0237/large_jpg/fullsizeoutput_d8.jpg?1543831835",
-      "location": "Batna, Algeria",
-      "price": 5353533,
-      "milesAway": 3443,
-      "delisted": true
-    },
-    {
       "id": 17,
       "photo": "https://photos.zillowstatic.com/fp/069ca41d3473ef07637e365ee34190f5-p_e.jpg",
       "location": "Miami Gardens (FL), United States of America",
       "price": 350,
-      "milesAway": 1000
+      "milesAway": 1000,
+      "delisted": false
+    },
+    {
+      "id": 18,
+      "photo": "https://i.ytimg.com/vi/lENhuiPwSVo/maxresdefault.jpg",
+      "location": "Fort Lauderdale (FL), United States of America",
+      "price": 800,
+      "milesAway": 5000
+    },
+    {
+      "id": 20,
+      "photo": "https://cdn.homedit.com/wp-content/uploads/2021/03/mission-style-mexican-home-1024x1024.jpg",
+      "location": "Ciudad Acuña, Mexico",
+      "price": 430,
+      "milesAway": 6000,
+      "delisted": false
+    },
+    {
+      "id": 22,
+      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/0e/49/d9/d1/thai-house-the-riverfront.jpg",
+      "location": "Surin, Thailand",
+      "price": 200,
+      "milesAway": 13000,
+      "delisted": false
+    },
+    {
+      "id": 25,
+      "photo": "https://www.10stunninghomes.com/wp-content/uploads/contemporary-architecture-breathtaking-house-peru-longhi-architects.jpg",
+      "location": "Piura, Peru",
+      "price": 3000,
+      "milesAway": 15000
+    },
+    {
+      "id": 26,
+      "photo": "https://media.architecturaldigest.com/photos/5785517d8fa9d0fe611e20c8/master/w_1834,h_1226,c_limit/Brazil-Homes-2.jpg",
+      "location": "Eunápolis, Brazil",
+      "price": 5000,
+      "milesAway": 12000,
+      "delisted": false
+    },
+    {
+      "id": 27,
+      "photo": "https://cdn.onekindesign.com/wp-content/uploads/2021/01/Mediterranean-Style-Home-Design-Swan-Architecture-02-1-Kindesign.jpg",
+      "location": "Foggia, Italy",
+      "price": 7000,
+      "milesAway": 12000,
+      "delisted": false
     }
   ]
 }

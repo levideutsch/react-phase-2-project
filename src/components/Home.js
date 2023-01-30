@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Filter from "./Filter";
 import Property from './Property'
 
-function Home({ properties, handleMove, handleDelete }) {
+function Home({ properties, handleMove, handleDelete, setReload }) {
 
   const [filter, setFilter] = useState('');
 
@@ -21,7 +21,7 @@ function Home({ properties, handleMove, handleDelete }) {
     return (
       <>
         <Filter value={filter} onFilterChange={setFilter} />
-        {sorted.map(property => <Property key={property.id} property={property} handleMove={handleMove} handleDelete={handleDelete} />)}
+        {sorted.map(property => <Property key={property.id} property={property} handleMove={handleMove} handleDelete={handleDelete} setReload={setReload}/>)}
       </>
     )
 }

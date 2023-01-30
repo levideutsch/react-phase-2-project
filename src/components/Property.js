@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Card, Image, Button } from 'semantic-ui-react'
 
 
-function Property({ property, handleMove, handleDelete }) {
+function Property({ property, handleMove, handleDelete, setReload }) {
   const { id, photo, location, price, milesAway, delisted } = property
 
   function handleListChange() {
@@ -16,11 +16,12 @@ function Property({ property, handleMove, handleDelete }) {
   }
 
     function handleDeleteClick() {
-        fetch(`http://localhost:3004/properties/${property.id}`, {
+        fetch(`http://localhost:3004/properties/${id}`, {
           method: "DELETE",
         })
         .then((response) => response.json())
         .then(() => handleDelete(property))
+        setReload("")
       }
      
 
@@ -32,12 +33,9 @@ function Property({ property, handleMove, handleDelete }) {
     
     return (
         <div id="li-card">
-            {/* <Filter onChecked={handleChecked}/> */}
             <br></br>
-
             <ul>
-                {/* {itemsToDisplay} */}
-                <li>
+            {/* <li> */}
              <Card>
                     <Image src={photo}/>
                     <Card.Content>
@@ -48,7 +46,7 @@ function Property({ property, handleMove, handleDelete }) {
                     <Button secondary onClick={handleDeleteClick}>Delete</Button>
                     </Card.Content>
             </Card> 
-            </li>
+            {/* </li> */}
             </ul>
          </div>
     )
