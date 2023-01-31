@@ -50,21 +50,24 @@
       "photo": "https://img.jamesedition.com/listing_images/2019/03/07/14/32/36/cab51890-3657-4e3e-8f4c-1ec70b45bc77/je/1000x620xc.jpg",
       "location": "Legazpi, Philippines",
       "price": 340,
-      "milesAway": 14000
+      "milesAway": 14000,
+      "delisted": true
     },
     {
       "id": 23,
       "photo": "https://img.jamesedition.com/listing_images/2022/02/10/09/15/02/79a1aa67-adca-409b-b87f-2ef95cd19950/je/1000x620xc.jpg",
       "location": "Oviedo, Spain",
       "price": 10000,
-      "milesAway": 14000
+      "milesAway": 14000,
+      "delisted": true
     },
     {
       "id": 24,
       "photo": "https://thumbs.dreamstime.com/z/country-house-norway-country-house-typical-norwegian-style-painted-white-181779243.jpg",
       "location": "Bergen, Norway",
       "price": 240,
-      "milesAway": 1300
+      "milesAway": 1300,
+      "delisted": true
     }
   ]
 }
