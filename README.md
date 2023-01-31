@@ -7,4 +7,4 @@
 ** Getting started **
 
 #### To get started, clone, then type in "npm start" on one termina, then type "npm run server" on a second and tada, we can now see how our application looks.
-![image]("img1.png")
+![image](img1.png)
