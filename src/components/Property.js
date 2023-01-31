@@ -32,12 +32,12 @@ function Property({ property, handleMove, handleDelete, setReload }) {
 
     
     return (
-        <div id="li-card">
+        <div className="li-card">
             <br></br>
             <ul>
             {/* <li> */}
              <Card>
-                    <Image src={photo}/>
+                    <Image src={photo} />
                     <Card.Content>
                     <Card.Header>{location}</Card.Header>
                     <Card.Meta> <span className='date'>{milesAway} Miles Away</span></Card.Meta>

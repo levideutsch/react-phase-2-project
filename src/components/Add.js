@@ -54,7 +54,7 @@ function Add({ onAdd }) {
 // console.log(cityList)
     return (
         <div>
-            <h1>Add New Property</h1>
+            <h1 id="add-new-property">Add New Property</h1>
 
             <Form onSubmit={handleSubmit}>
                 <Form.Group unstackable widths={2}>
@@ -70,10 +70,10 @@ function Add({ onAdd }) {
                 <Form.Input label='Price' name="price" placeholder='Add Price' value={formData.price} onChange={handleChange}/>
                 <Form.Input label='Distance' name="milesAway" placeholder='Add Distance' value={formData.milesAway} onChange={handleChange}/>
                 </Form.Group>
-                <Button type='submit'>Submit</Button>
+                <Button id="submit-button" type='submit'>Submit</Button>
             </Form>
           
-            <h1>New Items Will Be Addeed To Home Page</h1>
+            <h1 id="new-item">New Items Will Be Addeed To Home Page</h1>
           
         </div>
     )

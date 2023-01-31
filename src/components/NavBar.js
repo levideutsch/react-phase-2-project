@@ -8,27 +8,27 @@ import Add  from "./Add";
 /* Add basic styling for NavLinks */
 const linkStyles = {
   display: "inline-block",
-  width: "50px",
+  // width: "50px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "black",
+  background: "gray",
   textDecoration: "none",
   color: "white",
 };
 
-/* define the NavBar component */
+
 function NavBar() {
   return (
     <div id="navBar">
       <NavLink
         to="/"
-        /* set exact so it knows to only set activeStyle when route is deeply equal to link */
+       
         exact
-        /* add styling to Navlink */
+        
         style={linkStyles}
-        /* add prop for activeStyle */
+       
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
        Home
@@ -38,7 +38,7 @@ function NavBar() {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
         Add 
@@ -48,7 +48,7 @@ function NavBar() {
         exact
         style={linkStyles}
         activeStyle={{
-        background: "darkblue",
+        background: "black",
         }}
       >
         DeListed

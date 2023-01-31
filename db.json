@@ -17,66 +17,54 @@
       "delisted": false
     },
     {
-      "id": 11,
-      "photo": "https://media.tilsonhomes.com/175/2020/6/19/4264-KDB03943-HDR.1920x1440.jpg",
-      "location": "San Antonio, Texas",
-      "price": 770,
-      "milesAway": 1067,
-      "delisted": false
-    },
-    {
-      "id": 17,
-      "photo": "https://photos.zillowstatic.com/fp/069ca41d3473ef07637e365ee34190f5-p_e.jpg",
-      "location": "Miami Gardens (FL), United States of America",
-      "price": 350,
-      "milesAway": 1000,
-      "delisted": false
-    },
-    {
       "id": 18,
       "photo": "https://i.ytimg.com/vi/lENhuiPwSVo/maxresdefault.jpg",
       "location": "Fort Lauderdale (FL), United States of America",
       "price": 800,
-      "milesAway": 5000
+      "milesAway": 5000,
+      "delisted": true
+    },
+    {
+      "id": 19,
+      "photo": "https://cdn.homedit.com/wp-content/uploads/2020/07/Denmark-Petry-Retreat-from-NP-Architecture.jpg",
+      "location": "Odense, Denmark",
+      "price": 890,
+      "milesAway": 8000
     },
     {
       "id": 20,
-      "photo": "https://cdn.homedit.com/wp-content/uploads/2021/03/mission-style-mexican-home-1024x1024.jpg",
-      "location": "Ciudad Acuña, Mexico",
-      "price": 430,
-      "milesAway": 6000,
-      "delisted": false
+      "photo": "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/YXg6IEwIMmziY5DknJLcZhK5oOk=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/P3J45SYG6JD43MHBAM7USP6BRQ.jpg",
+      "location": "Waco (TX), United States of America",
+      "price": 670,
+      "milesAway": 3000
+    },
+    {
+      "id": 21,
+      "photo": "https://media-affidata-co-uk.s3.amazonaws.com/293193/Haus-for-sale-Brazil-2802147.jpg",
+      "location": "Sao Luís, Brazil",
+      "price": 360,
+      "milesAway": 9000
     },
     {
       "id": 22,
-      "photo": "https://media-cdn.tripadvisor.com/media/photo-s/0e/49/d9/d1/thai-house-the-riverfront.jpg",
-      "location": "Surin, Thailand",
-      "price": 200,
-      "milesAway": 13000,
-      "delisted": false
+      "photo": "https://img.jamesedition.com/listing_images/2019/03/07/14/32/36/cab51890-3657-4e3e-8f4c-1ec70b45bc77/je/1000x620xc.jpg",
+      "location": "Legazpi, Philippines",
+      "price": 340,
+      "milesAway": 14000
     },
     {
-      "id": 25,
-      "photo": "https://www.10stunninghomes.com/wp-content/uploads/contemporary-architecture-breathtaking-house-peru-longhi-architects.jpg",
-      "location": "Piura, Peru",
-      "price": 3000,
-      "milesAway": 15000
+      "id": 23,
+      "photo": "https://img.jamesedition.com/listing_images/2022/02/10/09/15/02/79a1aa67-adca-409b-b87f-2ef95cd19950/je/1000x620xc.jpg",
+      "location": "Oviedo, Spain",
+      "price": 10000,
+      "milesAway": 14000
     },
     {
-      "id": 26,
-      "photo": "https://media.architecturaldigest.com/photos/5785517d8fa9d0fe611e20c8/master/w_1834,h_1226,c_limit/Brazil-Homes-2.jpg",
-      "location": "Eunápolis, Brazil",
-      "price": 5000,
-      "milesAway": 12000,
-      "delisted": false
-    },
-    {
-      "id": 27,
-      "photo": "https://cdn.onekindesign.com/wp-content/uploads/2021/01/Mediterranean-Style-Home-Design-Swan-Architecture-02-1-Kindesign.jpg",
-      "location": "Foggia, Italy",
-      "price": 7000,
-      "milesAway": 12000,
-      "delisted": false
+      "id": 24,
+      "photo": "https://thumbs.dreamstime.com/z/country-house-norway-country-house-typical-norwegian-style-painted-white-181779243.jpg",
+      "location": "Bergen, Norway",
+      "price": 240,
+      "milesAway": 1300
     }
   ]
 }

@@ -37,13 +37,17 @@ function App() {
     }
 
     function handleDelete(deletedProperty) {
-      const updatedItems = properties.map(item => item.id !== deletedProperty.id)
+      const updatedItems = properties.filter(item => item.id !== deletedProperty.id)
+      const updatedDelisted = delisted.filter(item => item.id !== deletedProperty.id)
       setProperties(updatedItems)
+      setDelisted(updatedDelisted)
     }
 
   return (
     <Router>
-      <h1 id="not-air-bb">Not AirB&B </h1>
+      <h1 id="not"> Not
+        <img id="not-air-bb" src={"https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"}></img>
+      </h1>
       <NavBar/>
       <div className="App">
         <Switch>
@@ -59,7 +63,8 @@ function App() {
           </Route>
           <Route exact path="/delisted">
             <Home properties={delisted}
-                  handleMove={handleRelist} />
+                  handleMove={handleRelist} 
+                  handleDelete={handleDelete}/>
           </Route>
         </Switch>
       </div>
