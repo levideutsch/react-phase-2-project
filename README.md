@@ -34,7 +34,7 @@ Each property also gives the user an option to either `De-list` it or `Delete` i
 There's also and option to filter your properties by price, distance, and alphabetical.
 
 ## Add:
-![image](/Users/levideutsch/Development/code/phase-2/react-phase-2-project/Screenshot 2023-01-31 at 2.32.11 PM.png)
+![image](img2.png)
 
 
 
