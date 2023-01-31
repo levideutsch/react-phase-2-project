@@ -7,4 +7,4 @@
 ** Getting started **
 
 #### To get started, clone, then type in "npm start" on one termina, then type "npm run server" on a second and tada, we can now see how our application looks.
-![image]("Screenshot 2023-01-31 at 2.07.21 PM.png")
+![image]("img1.png")
