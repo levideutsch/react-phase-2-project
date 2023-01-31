@@ -29,7 +29,13 @@ Home has all of our listed properties. Every individual property displays it's:
 2: Price per night
 3: Distance
 
+Each property also gives the user an option to either `De-list` it or `Delete` it. Delisting the property will send it to the `Delisted` page, Deleting the property will remove it from our application.
+
 There's also and option to filter your properties by price, distance, and alphabetical.
+
+## Add:
+![image](/Users/levideutsch/Development/code/phase-2/react-phase-2-project/Screenshot 2023-01-31 at 2.32.11 PM.png)
+
 
 
 
