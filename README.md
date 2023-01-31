@@ -7,7 +7,7 @@
 
 ## How to start it up:
     Clone the repository and open it in your terminal. 
-    Navigate to the my-app folder and run:
+    Navigate to the react-phase-2-project folder and run:
    `$ npm install` or `$ npm i`
    
     Once your dependencies are installed, run:
@@ -18,3 +18,5 @@
 
     You will then be taken to the browser to start using the project.
 ![image](img1.png)
+
+Here we have all of our listed properties along with our `Home`, `Add`, and `Delisted` buttons. There's also and option to filter your properties by price, distance, and alphabetical.
