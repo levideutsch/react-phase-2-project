@@ -42,8 +42,12 @@ The `Add` page allows the user to add a new property to the Home page by inputin
 ## Delisted:
 ![image](img3.png)
 
+The `Delisted` page are filled with properties that were delisted from our `Home` page. Each individual property displays it's, location, Price per night, and Miles away. Directly under that we have our `Delete` button along side our `Re-list` button, when clicked sends that individual property back to the `Home` page. 
 
+### Details:
+To upload a property image one will need to use links as such:
+https://www.cedarhomes.com/home-plans/images/10020_header.png
+https://www.laurau.com/wp-content/uploads/Blog-Headers-3.jpg
 
-
-
-
+### source:
+Location Dropdown `Add` page: https://countriesnow.space/api/v0.1/countries/population/cities
