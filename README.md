@@ -19,4 +19,19 @@
     You will then be taken to the browser to start using the project.
 ![image](img1.png)
 
-Here we have all of our listed properties along with our `Home`, `Add`, and `Delisted` buttons. There's also and option to filter your properties by price, distance, and alphabetical.
+
+Here we have all of our listed properties along with our `Home`, `Add`, and `Delisted` buttons.
+
+## Home:
+Home has all of our listed properties. Every individual property displays it's:
+
+1: Location
+2: Price per night
+3: Distance
+
+There's also and option to filter your properties by price, distance, and alphabetical.
+
+
+
+
+
