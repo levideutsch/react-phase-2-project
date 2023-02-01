@@ -37,19 +37,19 @@ There's also an option to filter your properties by price, distance, and alphabe
 ## Add:
 ![image](img2.png)
 
-The `Add` page allows the user to add a new property to the Home page by inputing an image Url, selecting a loctaion, and then adding a price per night, and distance. Once that information is filled in, the user can now submit it to his Home page.
+The `Add` page allows the user to add a new property to the Home page by inputing an image Url, selecting a loctaion, and then adding a price per night, and distance. Once that information is filled in, the user can now submit it to their Home page.
 
 ## Delisted:
 ![image](img3.png)
 
-The `Delisted` page are filled with properties that were delisted from our `Home` page. Each individual property displays it's, location, Price per night, and Miles away. Directly under that we have our `Delete` button along side our `Re-list` button, when clicked sends that individual property back to the `Home` page.
+The `Delisted` page is filled with properties that were delisted from our `Home` page. Each individual property displays it's, location, Price per night, and Miles away. Directly under that we have our `Delete` button along side our `Re-list` button, when clicked sends that individual property back to the `Home` page.
 
 Users can also filter Properties by price, distance, and alphabetical in the `Delisted` page.
 
 ### Details:
-To upload a property image one will need to use links as such:
+To upload a property image one will need to use links such as:
 https://www.cedarhomes.com/home-plans/images/10020_header.png
 https://www.laurau.com/wp-content/uploads/Blog-Headers-3.jpg
 
 ### source:
-Location Dropdown `Add` page: https://countriesnow.space/api/v0.1/countries/population/cities
+Location Dropdown `Add` page API: https://countriesnow.space/api/v0.1/countries/population/cities
