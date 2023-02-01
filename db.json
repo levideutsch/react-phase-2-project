@@ -22,7 +22,7 @@
       "location": "Fort Lauderdale (FL), United States of America",
       "price": 800,
       "milesAway": 5000,
-      "delisted": true
+      "delisted": false
     },
     {
       "id": 19,
@@ -51,7 +51,7 @@
       "location": "Legazpi, Philippines",
       "price": 340,
       "milesAway": 14000,
-      "delisted": true
+      "delisted": false
     },
     {
       "id": 23,
@@ -59,7 +59,7 @@
       "location": "Oviedo, Spain",
       "price": 10000,
       "milesAway": 14000,
-      "delisted": true
+      "delisted": false
     },
     {
       "id": 24,
@@ -67,7 +67,28 @@
       "location": "Bergen, Norway",
       "price": 240,
       "milesAway": 1300,
-      "delisted": true
+      "delisted": false
+    },
+    {
+      "id": 25,
+      "photo": "https://homedesignlover.com/wp-content/uploads/2013/05/1-a-house-ext1.jpg",
+      "location": "Vicente López, Argentina",
+      "price": 3000,
+      "milesAway": 7000
+    },
+    {
+      "id": 26,
+      "photo": "https://cdn.cnn.com/cnnnext/dam/assets/160825163321-china-luxury-house-23-super-169.jpg",
+      "location": "Shishi, China",
+      "price": 1300,
+      "milesAway": 20000
+    },
+    {
+      "id": 27,
+      "photo": "https://static01.nyt.com/images/2020/12/05/world/05real-sweden02-inyt/05real-sweden02-inyt-videoSixteenByNineJumbo1600.jpg",
+      "location": "Orebro, Sweden",
+      "price": 200,
+      "milesAway": 10000
     }
   ]
 }
