@@ -53,3 +53,6 @@ https://www.laurau.com/wp-content/uploads/Blog-Headers-3.jpg
 
 ### source:
 Location Dropdown `Add` page API: https://countriesnow.space/api/v0.1/countries/population/cities
+
+#### My article explaining useEffect :
+https://medium.com/@leviyitzchokdeutsch/useeffect-hook-in-react-fbd638a114ed
